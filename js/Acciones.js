@@ -2,9 +2,8 @@
 $(document).ready(  function(e){
  //alert ("LISTO!!!")
  document.addEventListener("deviceready", function() {
-	 $(' .btn').tap(function() {
-		 var boton = (($(this).attr('class')).split
-		 (' '))[1];
+	 $('.btn').tap(function() {
+		 var boton = (($(this).attr('class')).split(' '))[1];
 		 switch(boton)
 		{
 			case 'b1':
@@ -26,4 +25,5 @@ $(document).ready(  function(e){
 		}
 	 });
  },false);	
+
 });
