@@ -6,6 +6,7 @@ $(document).ready(  function(e){
 		 var boton = (($(this).attr('class')).split(' '))[1];
 		 switch(boton)
 		{
+			alert(boton);
 			case 'b1':
 				navigator.notification.beep(1);
 			break;
